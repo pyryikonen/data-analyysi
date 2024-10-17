@@ -1,0 +1,541 @@
+[
+  {
+    "postCode": "33002",
+    "city": "TAMPERE",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33003",
+    "city": "TAMPERE",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33007",
+    "city": "TAMPERE",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33009",
+    "city": "TAMPERE",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33013",
+    "city": "FIMLAB",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33014",
+    "city": "TAMPEREEN YLIOPISTO",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33020",
+    "city": "WOIKOSKI",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33056",
+    "city": "KELA",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33060",
+    "city": "OLE",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33100",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33101",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33107",
+    "city": "SMARTPOST",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33108",
+    "city": "NOUTOPISTE",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33180",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33200",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33201",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33210",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33211",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33215",
+    "city": "SMARTPOST",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33230",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33231",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33240",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33250",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33251",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33270",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33271",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33275",
+    "city": "SMARTPOST",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33300",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33305",
+    "city": "SMARTPOST",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33310",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33311",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33315",
+    "city": "SMARTPOST",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33330",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33331",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33340",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33341",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33400",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33401",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33410",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33411",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33420",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33500",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33501",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33520",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33521",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33530",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33531",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33540",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33541",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33560",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33561",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33580",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33581",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33610",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33611",
+    "city": "TAMPERE",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33680",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33700",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33701",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33710",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33711",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33720",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33721",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33730",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33731",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33800",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33801",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33805",
+    "city": "SMARTPOST",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33820",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33821",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33840",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33841",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33850",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33851",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33870",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33875",
+    "city": "SMARTPOST",
+    "active": false,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33900",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  },
+  {
+    "postCode": "33901",
+    "city": "TAMPERE",
+    "active": true,
+    "languageCode": "1",
+    "municipalityCode": "837"
+  }
+]

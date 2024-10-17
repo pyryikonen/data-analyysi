@@ -1,0 +1,36 @@
+1_0	Rekisteröimätön
+1_1	Rekisterissä
+1_2	Poistettu rekisteristä
+1_3	Ei rekisteröity perustaminen
+1_4	Lakannut
+2_0	Rekisteröimätön
+2_1	Rekisterissä
+2_2	Poistettu rekisteristä
+2_3	Ei rekisteröity perustaminen
+2_4	Lakannut
+3_0	Rekisteröimätön
+3_1	Rekisterissä
+3_2	Poistettu rekisteristä
+3_3	Ei rekisteröity perustaminen
+3_4	Lakannut
+4_1	Rekisterissä
+5_55	Rekisterissä
+5_99	Aiheeton rivi
+6_32	turha (8_32)
+6_35	Ei katso olevansa alv-velvollinen
+6_80	Liiketoiminnasta arvonlisäverovelvollinen
+6_82	Kiinteistön käyttöoikeuden luovuttamisesta
+6_83	Alkutuottajana ja/tai kuvataiteilijana arvonlisäverovelvollinen
+6_84	Porotaloudesta arvonlisäverovelvollinen
+6_85	Ulkomaalainen arvonlisäveroilmoituksenantovelvollinen
+6_86	Ostajana tai omasta käytöstä arvonlisäverovelvollinen
+6_87	EU-palvelumyynneistä ilmoituksenantovelvollinen
+6_88	Taide-esineen myynnistä tai tekijänä arvonlisäverovelvollinen
+6_99	Aiheeton rivi
+6_P84	Paliskunnan osakkaana
+6_V80	Vastuuryhmän jäsenenä
+7_41	Rekisterissä
+7_42	Rekisterissä
+7_99	Aiheeton rivi
+8_32	Rekisterissä
+TARKPVM	Tarkistuspäivä
