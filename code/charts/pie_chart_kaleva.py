@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the CSV file
-file_path = '../csv/tampere_companies_filtered2.csv'  # Adjust path to your CSV file
+file_path = '../../csv/tampere_companies_filtered.csv'  # Adjust path to your CSV file
 df = pd.read_csv(file_path, dtype=str)
 
 # Filter the DataFrame for postal code 33540
