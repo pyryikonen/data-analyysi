@@ -6,7 +6,7 @@ file_path = '../../csv/tampere_companies_filtered.csv'  # Adjust path to your CS
 df = pd.read_csv(file_path, dtype=str)
 
 # Count occurrences of each mainBusinessLineDescription
-business_line_counts = df_filtered['mainBusinessLineDescription'].value_counts()
+business_line_counts = df['mainBusinessLineDescription'].value_counts()
 
 # Create two separate DataFrames for descriptions based on the count
 business_over_50 = business_line_counts[business_line_counts > 50]
