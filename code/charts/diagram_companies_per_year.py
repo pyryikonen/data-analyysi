@@ -1,46 +1,61 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load the CSV file
-file_path = '../../csv/tampere_companies_filtered.csv'  # Adjust path to your CSV file
+
+file_path = "../../csv/tampere_companies_filtered.csv"
 df = pd.read_csv(file_path, dtype=str)
 
-# Convert the registration date to datetime format
-df['mainBusinessLineRegDate'] = pd.to_datetime(df['mainBusinessLineRegDate'], errors='coerce')
 
-# Filter the DataFrame to include only entries from the year 2000 onwards
-df_filtered = df[df['mainBusinessLineRegDate'].dt.year >= 2000]
+df["mainBusinessLineRegDate"] = pd.to_datetime(
+    df["mainBusinessLineRegDate"], errors="coerce"
+)
 
-# Group by postal code and registration year, and count the number of companies
-postal_year_counts = df_filtered.groupby(['postCode', df_filtered['mainBusinessLineRegDate'].dt.year]).size().reset_index(name='count')
 
-# Create a cumulative count for each postal code
-postal_year_counts['cumulative_count'] = postal_year_counts.groupby('postCode')['count'].cumsum()
+df_filtered = df[df["mainBusinessLineRegDate"].dt.year >= 2000]
 
-# Pivot the table for better structure
-postal_year_counts_pivot = postal_year_counts.pivot(index='mainBusinessLineRegDate', columns='postCode', values='cumulative_count').fillna(0)
 
-# Get the top 5 postal codes by total cumulative counts
+postal_year_counts = (
+    df_filtered.groupby(["postCode", df_filtered["mainBusinessLineRegDate"].dt.year])
+    .size()
+    .reset_index(name="count")
+)
+
+
+postal_year_counts["cumulative_count"] = postal_year_counts.groupby("postCode")[
+    "count"
+].cumsum()
+
+
+postal_year_counts_pivot = postal_year_counts.pivot(
+    index="mainBusinessLineRegDate", columns="postCode", values="cumulative_count"
+).fillna(0)
+
+
 top_5_postal_codes = postal_year_counts_pivot.max().nlargest(5).index
 
-# Filter the data for the top 5 postal codes
+
 postal_year_counts_top_5 = postal_year_counts_pivot[top_5_postal_codes]
 
-# Create a line diagram for the cumulative counts of the top 5 postal codes
-plt.figure(figsize=(14, 8))  # Set the width to 14 and the height to 8
+
+plt.figure(figsize=(14, 8))
 for postal_code in postal_year_counts_top_5.columns:
-    plt.plot(postal_year_counts_top_5.index.astype(str), postal_year_counts_top_5[postal_code], marker='o', label=postal_code)
+    plt.plot(
+        postal_year_counts_top_5.index.astype(str),
+        postal_year_counts_top_5[postal_code],
+        marker="o",
+        label=postal_code,
+    )
 
-plt.title('Cumulative Count of Companies by Top 5 Postal Codes and Registration Year (From 2000 to 2024)')
-plt.xlabel('Registration Year')
-plt.ylabel('Cumulative Number of Companies')
+plt.title(
+    "Cumulative Count of Companies by Top 5 Postal Codes and Registration Year (From 2000 to 2024)"
+)
+plt.xlabel("Registration Year")
+plt.ylabel("Cumulative Number of Companies")
 
-# Automatically fit the x-axis limits to the data
-plt.autoscale(axis='x', tight=True)
 
-# Optional: Uncomment the following line to automatically fit the layout
-# plt.tight_layout()  # Adjust layout for better appearance
+plt.autoscale(axis="x", tight=True)
 
-plt.legend(title='Postal Code')
+
+plt.legend(title="Postal Code")
 plt.grid()
 plt.show()

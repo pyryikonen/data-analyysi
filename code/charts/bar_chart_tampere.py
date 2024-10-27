@@ -1,50 +1,51 @@
 import pandas as pd
 import plotly.graph_objects as go
 
-# Load the CSV file
-file_path = '../../csv/tampere_companies_filtered.csv'  # Adjust path to your CSV file
+file_path = "../../csv/tampere_companies_filtered.csv"
 df = pd.read_csv(file_path, dtype=str)
 
-# Count occurrences of each mainBusinessLineDescription
-business_line_counts = df['mainBusinessLineDescription'].value_counts()
+business_line_counts = df["mainBusinessLineDescription"].value_counts()
 
-# Create two separate DataFrames for descriptions based on the count
 business_over_50 = business_line_counts[business_line_counts > 50]
-business_under_50 = business_line_countsbusiness_under_50 = business_line_counts[(business_line_counts <= 50) & (business_line_counts > 10)]
+business_under_50 = business_line_countsbusiness_under_50 = business_line_counts[
+    (business_line_counts <= 50) & (business_line_counts > 10)
+]
 
-
-# Create the horizontal bar chart for business descriptions over 50 companies
 fig_over_50 = go.Figure()
-fig_over_50.add_trace(go.Bar(
-    y=business_over_50.index,  # Main Business Line Descriptions on y-axis
-    x=business_over_50.values,  # Counts on x-axis
-    name='Over 50 Companies',
-    orientation='h'  # Set orientation to horizontal
-))
+fig_over_50.add_trace(
+    go.Bar(
+        y=business_over_50.index,
+        x=business_over_50.values,
+        name="Over 50 Companies",
+        orientation="h",
+    )
+)
 fig_over_50.update_layout(
-    title='Business Line Descriptions (Over 50 Companies)',
-    yaxis_title='Main Business Line Description',  # Update titles accordingly
-    xaxis_title='Count',
+    title="Business Line Descriptions (Over 50 Companies)",
+    yaxis_title="Main Business Line Description",
+    xaxis_title="Count",
     height=1200,
-    margin=dict(l=50, r=20, t=40, b=150)  # Adjust margins
+    margin=dict(l=50, r=20, t=40, b=150),
 )
 
-# Create the horizontal bar chart for business descriptions under or equal to 50 companies
 fig_under_50 = go.Figure()
-fig_under_50.add_trace(go.Bar(
-    y=business_under_50.index,  # Main Business Line Descriptions on y-axis
-    x=business_under_50.values,  # Counts on x-axis
-    name='50 or Fewer Companies',
-    orientation='h'  # Set orientation to horizontal
-))
-fig_under_50.update_layout(
-    title='Business Line Descriptions (50 or Fewer Companies)',
-    yaxis_title='Main Business Line Description',  # Update titles accordingly
-    xaxis_title='Count',
-    height=1200,
-    margin=dict(l=50, r=20, t=40, b=150)  # Adjust margins
+fig_under_50.add_trace(
+    go.Bar(
+        y=business_under_50.index,
+        x=business_under_50.values,
+        name="50 or Fewer Companies",
+        orientation="h",
+    )
 )
 
-# Show both figures
+fig_under_50.update_layout(
+    title="Business Line Descriptions (50 or Fewer Companies)",
+    yaxis_title="Main Business Line Description",
+    xaxis_title="Count",
+    height=1200,
+    margin=dict(l=50, r=20, t=40, b=150),
+)
+
+
 fig_over_50.show()
 fig_under_50.show()
